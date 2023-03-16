@@ -1,4 +1,4 @@
-package POSTTEST1;
+package POSTTEST2;
 
 
 public class Biota {
