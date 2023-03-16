@@ -1,4 +1,4 @@
-package POSTTEST1;
+package POSTTEST2;
 import java.util.*; 
 import java.io.*;
 
