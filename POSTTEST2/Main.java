@@ -1,4 +1,4 @@
-package POSTTEST2;
+package POSTTEST1;
 import java.util.*; 
 import java.io.*;
 
@@ -111,24 +111,24 @@ public class Main {
         }
 
         System.out.print("Masukan Nama Ilmiah / Latin Biota     : ");
-        String setnamailmiah = br.readLine();
+        String addnamailmiah = br.readLine();
         System.out.print("Masukan Nama umum Biota               : ");
-        String setnamaumum = br.readLine();
+        String addnamaumum = br.readLine();
         System.out.print("Masukan Status dari Biota             : ");
-        String setstatus= br.readLine();
+        String addstatus= br.readLine();
         System.out.print("Masukan Kedalaman Biota               : ");
-        double setkedalaman = Double.parseDouble(br.readLine());
+        double addkedalaman = Double.parseDouble(br.readLine());
         System.out.print("Masukan daerah penemuan dari Biota    : ");
-        String setdaerah= br.readLine();
+        String adddaerah= br.readLine();
         System.out.print("Masukan tahun ditemukannya Biota      : ");
-        int settahun = Integer.parseInt(br.readLine());
+        int addtahun = Integer.parseInt(br.readLine());
 
-        biota.get(index-1).setNamailmiah(setnamailmiah);
-        biota.get(index-1).setNamaumum(setnamaumum); 
-        biota.get(index-1).setStatus(setstatus);
-        biota.get(index-1).setKedalaman(setkedalaman);  
-        biota.get(index-1).setDaerah(setdaerah);  
-        biota.get(index-1).setTahun(settahun); 
+        biota.get(index-1).setNamailmiah(addnamailmiah);
+        biota.get(index-1).setNamaumum(addnamaumum); 
+        biota.get(index-1).setStatus(addstatus);
+        biota.get(index-1).setKedalaman(addkedalaman);  
+        biota.get(index-1).setDaerah(adddaerah);  
+        biota.get(index-1).setTahun(addtahun); 
 
         biota.get(index-1).terupdate();
     }
